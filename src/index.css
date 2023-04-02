@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  color: #454444;
+  margin: 0;
+}
+
+:root {
+  --main-text-color: #454444;
+  --secondary-text-color: #A3A2A2;
+  --blue-light-custom: #2E89DC;
+  --blue-dark-custom: #4361EE;
+  --tomato-custom: #FB6F92;
+  --button-text-white: #F2F2F2;
+  --gradient-primary: linear-gradient(90.05deg, var(--blue-light-custom) -26.13%, var(--blue-dark-custom) 30.71%, var(--tomato-custom) 102.5%);
+  --button-push-color: linear-gradient(var(--blue-light-custom), var(--blue-dark-custom), var(--tomato-custom));
+
+}

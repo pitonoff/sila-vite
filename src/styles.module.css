@@ -1,0 +1,65 @@
+@import "index.css";
+
+
+
+.costLabel {
+    background: var(--gradient-primary);
+    color: var(--button-text-white);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 17px;
+
+    width: 103px;
+    height: 28px;
+
+    /* position: "absolute"; //doesn't work in this place!!  - ???
+    bottom: "13px";
+    right: "13px"; */
+
+    cursor: pointer;
+}
+
+.btn {
+    background: var(--gradient-primary);
+    border-radius: 30px;
+    color: var(--button-text-white);
+    border: none;
+    width: 114px;
+    height: 45px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.btn:hover {
+    transform: scale(1.05); 
+}
+
+.btn:active {
+    background: var(--button-push-color);
+  }
+
+
+/* Footer */
+.box-footer {
+    width: 100%;
+    min-height: 389px;
+    background: var(--gradient-primary);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.footer-links>a {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
